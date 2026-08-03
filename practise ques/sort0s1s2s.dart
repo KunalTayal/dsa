@@ -22,7 +22,7 @@ sortArrayOf012(List<int> nums) {
 }
 
 //Solution using counting O(2n) time and O(1) space and change in second time
- sortArrayUsingCounting(List<int> nums) {
+sortArrayUsingCounting(List<int> nums) {
   int count0 = 0;
   int count1 = 0;
   for (int i = 0; i < nums.length; i++) {
